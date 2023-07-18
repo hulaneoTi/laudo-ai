@@ -1,0 +1,20 @@
+{
+  "name": "laudo_ai",
+  "version": "1.0.0",
+  "description": "Projeto para integrar uma AI para auxiliar na criação de laudos.",
+  "main": "server.js",
+  "scripts": {
+    "dev": "npx nodemon server.js",
+    "start": "node server.js"
+  },
+  "author": "Gabriel Coelho",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.17.1",
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}

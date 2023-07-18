@@ -1,0 +1,11 @@
+version: '3'
+services:
+  node:
+    container_name: Laudo_AI-Node
+    image: node:latest
+    volumes:
+      - ./laudo_ai:/app
+    working_dir: /app
+    ports:
+      - 3000:3000
+    command: npm run dev
