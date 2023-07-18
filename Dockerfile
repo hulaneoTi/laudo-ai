@@ -1,7 +1,7 @@
 FROM node:latest
 
 # Instalação do jq
-RUN apt update && apt install jq
+RUN apt update && apt install jq -y
 
 WORKDIR /app
 

@@ -1,7 +1,5 @@
 #!/bin/bash
 
-OPENAI_API_KEY=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
-
 audio=$(curl -s https://api.openai.com/v1/audio/transcriptions \
   -H "Authorization: Bearer $OPENAI_API_KEY" \
   -H "Content-Type: multipart/form-data" \

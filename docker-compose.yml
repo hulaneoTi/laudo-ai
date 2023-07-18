@@ -8,4 +8,6 @@ services:
     working_dir: /app
     ports:
       - 3000:3000
-    command: npm run dev
+    command: bash -c "apt update && apt install jq -y && npm run dev"
+    environment:
+      - OPENAI_API_KEY=<you_api_key>
